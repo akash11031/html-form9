@@ -1,0 +1,161 @@
+/* google font linking */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* global css */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* header section css start */
+
+.navbar{   
+background-color: #F0FFF0 !important;
+;
+}
+
+.navbar .container{   
+
+}
+
+.navbar .container .navbar-brand{   
+
+}
+
+.navbar .container .navbar-brand img{   
+  width: 198.07px;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 25px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: black;
+}
+
+.s-btn{
+   padding: 0px 15px; 
+   border-radius: 33px;
+   border: 1px solid #21B573;
+   background: #21B573 !important;
+   font-family: "Roboto";
+}
+
+.s-btn .s-btn2{
+    color: white !important;
+}
+
+/* -- banner section css start -- */
+.banner-section{
+    background-color: #F0FFF0 !important;
+    height: 450px;
+}
+
+.banner-section img{
+ width: 554px;
+ height: 346px;
+ padding-top: 25px;
+}
+.banner-section .content{
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+.banner-section .content .sub-title{
+    font-size: 16px;
+    line-height: 24px;
+    color:#FD511A;
+    ;
+}
+
+
+.banner-section .content h1{
+    width: 82%;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+    margin-top: -10px;
+
+}
+
+
+.banner-section .content h1 span{
+    color: #21B573;
+}
+
+
+.banner-section .content .pera{
+    width: 83%;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: #000000;
+
+}
+
+.banner-section .btn-primary{
+    padding: 12px 36px; 
+    border-radius: 33px;
+    border: 1px solid #000000;
+    background: #21B573 !important;
+    font-family: "Roboto";
+    margin-top: 10px;
+}
+
+/* -- feathur section css start -- */
+
+.feathur-section{
+ margin-top: 40px;
+}
+
+.feathur-section .f-inner{
+    text-align: center;
+    background: #F8FFFB;
+    padding: 50px 42px;
+    border-radius: 10px;
+    height: 270px;
+    width: 270px;
+    margin-bottom: 50px;
+    
+
+    
+}
+
+.feathur-section .fthr-2{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.2);
+}
+
+
+
+.feathur-section .f-inner:hover{
+    box-shadow: 0px 20px 40px 0px #0000001A;
+}
+
+.feathur-section .f-inner img{
+    margin-bottom: 25px;
+}
+
+.feathur-section .f-inner h4{
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #413960;
+
+
+}
+
